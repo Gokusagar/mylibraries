@@ -1,8 +1,8 @@
-def git(repo)
+def mygit(repo)
 {
 git "${repo}"
 }
-def mvn()
+def mymvn()
 {
 sh 'mvn package'
 }
