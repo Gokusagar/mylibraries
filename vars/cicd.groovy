@@ -1,6 +1,6 @@
 def mygit(repo)
 {
-  "git ${repo}"
+  git "${repo}"
 }
 def mybuild()
 {
