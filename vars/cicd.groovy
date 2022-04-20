@@ -4,5 +4,5 @@ def mygit(repo)
 }
 def mybuild()
 {
-  "sh mvn package"
+  sh 'mvn package'
 }
