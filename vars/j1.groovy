@@ -8,7 +8,7 @@ def mybuild()
 }
 def mydeploy(name,ip,file)
 {
-  "sh scp /home/ubuntu/.jenkins/workspace/${name}/webapp/target/webapp.war ubuntu@${i}p:/var/lib/tomcat9/webapps/${file}"
+  "sh scp /home/ubuntu/.jenkins/workspace/${name}/webapp/target/webapp.war ubuntu@${ip}:/var/lib/tomcat9/webapps/${file}"
 }
 def mytest()
 {
